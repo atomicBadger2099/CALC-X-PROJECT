@@ -1,4 +1,4 @@
-<h1>THE CALC-X PROJECT</h1>h1>
+<h1>THE CALC-X PROJECT</h1>
 
 <i> fully functional calculator to be run in Linux BASH Terminal</i>
 
