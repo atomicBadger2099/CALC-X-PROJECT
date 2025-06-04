@@ -3,7 +3,7 @@
 <i> fully functional calculator to be run in Linux BASH Terminal</i>
 
 
-Welcome to the SYS-CALC PROJECT.
+Welcome to the CALC-X PROJECT.
 
 This project is an advanced calculator run on Linux Terminal, written in GNU C99.
 
