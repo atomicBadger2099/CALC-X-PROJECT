@@ -1,0 +1,28 @@
+/usr/bin/ld: /tmp/ccg3jL8I.o: in function `modulo':
+basic_ops.c:(.text+0x10c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/ccoAVR2i.o: in function `power':
+advanced_ops.c:(.text+0x6d): undefined reference to `floor'
+/usr/bin/ld: advanced_ops.c:(.text+0xb1): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccoAVR2i.o: in function `square_root':
+advanced_ops.c:(.text+0x14b): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccoAVR2i.o: in function `logarithm_10':
+advanced_ops.c:(.text+0x1a2): undefined reference to `log10'
+/usr/bin/ld: /tmp/ccoAVR2i.o: in function `natural_log':
+advanced_ops.c:(.text+0x1f9): undefined reference to `log'
+/usr/bin/ld: /tmp/ccoAVR2i.o: in function `exponential':
+advanced_ops.c:(.text+0x232): undefined reference to `exp'
+/usr/bin/ld: /tmp/ccQr0mob.o: in function `sine':
+trigonometry.c:(.text+0x93): undefined reference to `sin'
+/usr/bin/ld: /tmp/ccQr0mob.o: in function `cosine':
+trigonometry.c:(.text+0xd4): undefined reference to `cos'
+/usr/bin/ld: /tmp/ccQr0mob.o: in function `tangent':
+trigonometry.c:(.text+0x123): undefined reference to `cos'
+/usr/bin/ld: trigonometry.c:(.text+0x16c): undefined reference to `tan'
+/usr/bin/ld: /tmp/ccQr0mob.o: in function `arcsine':
+trigonometry.c:(.text+0x1da): undefined reference to `asin'
+/usr/bin/ld: /tmp/ccQr0mob.o: in function `arccosine':
+trigonometry.c:(.text+0x269): undefined reference to `acos'
+/usr/bin/ld: /tmp/ccQr0mob.o: in function `arctangent':
+trigonometry.c:(.text+0x2b8): undefined reference to `atan'
+collect2: error: ld returned 1 exit status
+
